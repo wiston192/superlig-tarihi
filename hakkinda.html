@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hakkında – Süper Lig Tarihi</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="index.html">SÜPER<span>LİG</span></a>
+  <div class="nav-right">
+    <a class="nav-link" href="index.html#teams">Takımlar</a>
+    <a class="nav-link" href="hakkinda.html">Hakkında</a>
+  </div>
+</nav>
+
+<div style="padding-top:120px; max-width:800px; margin:0 auto; padding-left:2rem; padding-right:2rem; padding-bottom:6rem;">
+  <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.75rem; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:1rem;">Proje Hakkında</div>
+  <h1 style="font-family:'Bebas Neue',sans-serif; font-size:clamp(3rem,8vw,6rem); letter-spacing:4px; line-height:1; margin-bottom:2rem; color:var(--text);">TÜRK FUTBOL<br><span style="color:var(--accent);">TARİHİ</span></h1>
+
+  <div style="border-top:1px solid var(--border); padding-top:2rem; display:flex; flex-direction:column; gap:2rem;">
+
+    <div style="background:var(--bg2); border:1px solid var(--border); padding:2rem;">
+      <h2 style="font-family:'Barlow Condensed',sans-serif; font-size:0.75rem; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:1rem;">Bu Site Nedir?</h2>
+      <p style="font-size:0.95rem; line-height:1.8; color:rgba(232,232,240,0.75);">
+        Bu web sitesi, 2025-2026 Trendyol Süper Lig sezonunda mücadele eden 18 kulübün köklü tarihlerini, altın dönemlerini, efsane oyuncularını ve güncel durumlarını kapsamlı biçimde sunmaktadır. Her kulübün kendine özgü hikâyesi, kuruluş yılından bu güne kronolojik olarak aktarılmaktadır.
+      </p>
+    </div>
+
+    <div style="background:var(--bg2); border:1px solid var(--border); padding:2rem;">
+      <h2 style="font-family:'Barlow Condensed',sans-serif; font-size:0.75rem; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:1rem;">İçerik Kapsamı</h2>
+      <ul style="list-style:none; display:flex; flex-direction:column; gap:0.8rem;">
+        <li style="display:flex; gap:1rem; font-size:0.88rem; color:rgba(232,232,240,0.75);">
+          <span style="color:var(--accent); font-weight:700;">→</span>
+          <span>Her kulübün kuruluş tarihi ve genel tarihçesi</span>
+        </li>
+        <li style="display:flex; gap:1rem; font-size:0.88rem; color:rgba(232,232,240,0.75);">
+          <span style="color:var(--accent); font-weight:700;">→</span>
+          <span>Altın dönemler ve tarihi başarılar</span>
+        </li>
+        <li style="display:flex; gap:1rem; font-size:0.88rem; color:rgba(232,232,240,0.75);">
+          <span style="color:var(--accent); font-weight:700;">→</span>
+          <span>Şampiyonluk istatistikleri (Süper Lig, Türkiye Kupası, Süper Kupa)</span>
+        </li>
+        <li style="display:flex; gap:1rem; font-size:0.88rem; color:rgba(232,232,240,0.75);">
+          <span style="color:var(--accent); font-weight:700;">→</span>
+          <span>Efsane oyuncular ve teknik direktörler</span>
+        </li>
+        <li style="display:flex; gap:1rem; font-size:0.88rem; color:rgba(232,232,240,0.75);">
+          <span style="color:var(--accent); font-weight:700;">→</span>
+          <span>Stadyum bilgileri ve kulüp detayları</span>
+        </li>
+        <li style="display:flex; gap:1rem; font-size:0.88rem; color:rgba(232,232,240,0.75);">
+          <span style="color:var(--accent); font-weight:700;">→</span>
+          <span>Güncel durum ve 2025-2026 sezon performansı</span>
+        </li>
+        <li style="display:flex; gap:1rem; font-size:0.88rem; color:rgba(232,232,240,0.75);">
+          <span style="color:var(--accent); font-weight:700;">→</span>
+          <span>Tarihsel zaman çizelgesi – her kulüp için önemli dönüm noktaları</span>
+        </li>
+      </ul>
+    </div>
+
+    <div style="background:var(--bg2); border:1px solid var(--border); padding:2rem;">
+      <h2 style="font-family:'Barlow Condensed',sans-serif; font-size:0.75rem; letter-spacing:3px; color:var(--accent); text-transform:uppercase; margin-bottom:1rem;">18 Kulüp</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:0.5rem;">
+        ${["Galatasaray","Fenerbahçe","Trabzonspor","Beşiktaş","İstanbul Başakşehir","Göztepe","Samsunspor","Rizespor","Konyaspor","Kocaelispor","Alanyaspor","Gaziantep FK","Kasımpaşa","Gençlerbirliği","Eyüpspor","Antalyaspor","Kayserispor","Fatih Karagümrük"].map(name => `
+          <div style="border:1px solid var(--border); padding:0.6rem 1rem; font-family:'Barlow Condensed',sans-serif; font-size:0.82rem; letter-spacing:1px; color:var(--text-muted);">${name}</div>
+        `).join('')}
+      </div>
+    </div>
+
+    <a href="index.html" style="display:inline-block; background:var(--accent); color:#0a0a0f; font-family:'Barlow Condensed',sans-serif; font-weight:700; letter-spacing:3px; text-transform:uppercase; text-decoration:none; padding:1rem 2rem; border-radius:3px; font-size:0.9rem;">← Takımlara Dön</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 <span>SüperLig Tarihi</span> · Tüm hakları saklıdır</p>
+</footer>
+
+<script>
+const teams = ["Galatasaray","Fenerbahçe","Trabzonspor","Beşiktaş","İstanbul Başakşehir","Göztepe","Samsunspor","Rizespor","Konyaspor","Kocaelispor","Alanyaspor","Gaziantep FK","Kasımpaşa","Gençlerbirliği","Eyüpspor","Antalyaspor","Kayserispor","Fatih Karagümrük"];
+</script>
+</body>
+</html>
